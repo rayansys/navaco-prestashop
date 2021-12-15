@@ -12,7 +12,7 @@ class navaco extends PaymentModule
 {
 	private $_html 			= '';
 	private $_postErrors 	= array();
-    private $url = "https://fcp.shaparak.ir/nvcservice/Api/v2/";
+    private $url = "http://79.174.161.132:8181/nvcservice/Api/v2/";
 	public function __construct()
 	{
 
